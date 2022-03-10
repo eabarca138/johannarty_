@@ -1,0 +1,135 @@
+a {
+  color: #A7A7A7;
+}
+
+.nav {
+    min-height: 170px;
+background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 3;
+}
+
+.nav ul {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  margin-right: 55px;
+}
+
+.nav li a {
+  display: block;
+  text-decoration: none;
+  margin: auto auto;
+}
+
+.social-media-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.nav .logo {
+  display: block;
+  font-size: 50px;
+  text-decoration: none;
+  margin: auto 0;
+  margin-left: 46px;
+}
+
+.nav .menu {
+  display: block;
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.7s ease-out;
+}
+
+.nav .menu-icon {
+    margin-top: 22px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+  margin-left: auto;
+}
+
+.nav .menu-icon .navicon {
+  margin-left: auto;
+  background: #A7A7A7;
+  display: inline-block;
+  height: 2px;
+  width: 50px;
+  position: relative;
+  transition: background 0.2s ease-out;
+}
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+  background: #A7A7A7;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.nav .menu-icon .navicon:before {
+  top: 15px;
+}
+
+.nav .menu-icon .navicon:after {
+  top: -15px;
+}
+
+.nav .menu-btn {
+  display: none;
+}
+
+.nav .menu-btn:checked ~ .menu {
+  max-height: 600px;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 48em) {
+    .nav {
+    height: 170px;
+    }
+  .nav li {
+    display: flex;
+    justify-content: right;
+  }
+  .nav li:not(:last-child) {
+    margin-right: 28px;
+  }
+
+  .nav ul {
+    width: auto;
+  }
+  .nav .menu {
+    clear: none;
+    display: flex;
+    max-height: none;
+  }
+  .nav .menu-icon {
+    display: none;
+  }
+}
