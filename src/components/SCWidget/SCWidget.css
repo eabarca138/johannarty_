@@ -1,0 +1,13 @@
+
+    .soundcloud-container {
+        padding-top: 10.625rem;
+        width: 100%;
+        height: auto;
+    }
+
+@media(min-width: 1307px) {
+    .soundcloud-container {
+        margin: 0 auto;
+        width: 1307px;
+    }
+}
