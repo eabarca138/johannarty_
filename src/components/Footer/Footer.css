@@ -6,7 +6,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .footer p {
     display: inline-block;
+}
+.footer p a{
+    text-decoration: none;
 }
