@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>Contact & promos: contact@johannarty.com</p>
-      <p><a href="#" rel="noopener noreferrer">Get presskit</a></p>
+      <p><a target="_blank" href="https://drive.google.com/drive/folders/1QeCp--YyRB0gBrIKl2jpFSPCXCUAxh8e" rel="noopener noreferrer">Get presskit</a></p>
     </footer>
   );
 }

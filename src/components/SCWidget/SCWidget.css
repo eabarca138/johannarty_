@@ -1,13 +1,30 @@
+.soundcloud-container {
+  padding-top: 10.625rem;
+  width: 100%;
+  height: auto;
+  display: none;
+}
 
+@media (min-width: 950px) {
     .soundcloud-container {
-        padding-top: 10.625rem;
-        width: 100%;
-        height: auto;
-    }
+        display: block;
 
-@media(min-width: 1307px) {
+    }
+}
+
+@media (min-width: 1307px) {
     .soundcloud-container {
         margin: 0 auto;
         width: 1307px;
     }
+}
+
+.soundcloud-container-sm {
+    padding-top: 8rem;
+    
+}
+@media (min-width: 950px) {
+    .soundcloud-container-sm {
+    display: none;
+  }
 }

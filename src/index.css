@@ -19,7 +19,7 @@ body::before {
   top: 0;
   bottom: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 79% 0%, 0 100%, 0 0);
+  clip-path: polygon(0 0, 80% 0%, 0 100%, 0 0);
   
 }
 
