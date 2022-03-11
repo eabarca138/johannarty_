@@ -1,8 +1,8 @@
 .footer {
+  height: 8rem;
   background-color: #252525;
   color: #e5e5e5;
-  margin-top: 117px;
-  height: 10.625rem;
+  margin-top: 7.3125rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,8 @@
 
 @media (min-width: 650px) {
   .footer {
-    font-size: 1.25rem;
+    font-size: 0.875rem;
+    height: 6rem;
   }
 }
 
