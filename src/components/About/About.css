@@ -1,7 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/mollen-personal-use");
 
 .about {
-    padding-top: 80px;
+    padding-top: 70px;
   width: 90%;
   margin: 0 auto;
   text-align: justify;
@@ -9,7 +9,7 @@
 .about p {
     font-size: 1.25rem;
     color: #a7a7a7;
-    line-height: 2.475rem;
+    line-height: 35px;
 }
 
 @media (min-width: 950px) {

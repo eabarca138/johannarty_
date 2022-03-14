@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 a {
   color: #A7A7A7;
@@ -49,14 +49,14 @@ a {
   text-decoration: none;
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   margin: auto 0;
   margin-left: 1.5rem;
   padding-top: 25px;
 }
 @media(min-width: 950px) {
   .nav .logo {
-      padding-top: 0;
+    padding-top: 0;
     margin-left: 2.875rem;
   }
 }
