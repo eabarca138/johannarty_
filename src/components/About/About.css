@@ -9,7 +9,7 @@
 .about p {
     font-size: 1.25rem;
     color: #a7a7a7;
-    line-height: 35px;
+    line-height: 1.5625rem;
 }
 
 @media (min-width: 950px) {
